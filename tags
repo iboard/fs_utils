@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+FsUtils	README.md	/^# FsUtils$/;"	c
+FsUtils	lib/fs_utils.ex	/^defmodule FsUtils do$/;"	m
+FsUtilsTest	test/fs_utils_test.exs	/^defmodule FsUtilsTest do$/;"	m
+Installation	README.md	/^## Installation$/;"	s
+MixProject	mix.exs	/^defmodule FsUtils.MixProject do$/;"	m
+application	mix.exs	/^  def application do$/;"	f	module:MixProject	access:public
+deps	mix.exs	/^  defp deps do$/;"	f	module:MixProject	access:private
+hello	lib/fs_utils.ex	/^  def hello do$/;"	f	module:FsUtils	access:public
+project	mix.exs	/^  def project do$/;"	f	module:MixProject	access:public
+read the tree structure	test/fs_utils_test.exs	/^  test "read the tree structure" do$/;"	t	module:FsUtilsTest
