@@ -11,7 +11,7 @@ defmodule FsUtilsTest do
   use ExUnit.Case
   # doctest FsUtils
 
-  test "read the tree structure" do
+  test "read the tree structure from a given root-path" do
     expected = %{
       "index.html" => "Overall Index\n",
       "p1" => %{
