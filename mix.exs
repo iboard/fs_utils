@@ -10,13 +10,22 @@ defmodule FsUtils.MixProject do
       deps: deps(),
       # Docs
       name: "FsUtils",
+      package: package(),
       source_url: "https://github.com/iboard/fs_utils",
       homepage_url: "https://github.com/iboard/fs_utils",
       docs: [
-        main: "FsUtils",
+        main: "readme",
         logo: "assets/logo.png",
         extras: ["README.md", "LICENSE.md"]
       ]
+    ]
+  end
+
+  def package() do
+    [
+      description: "Some little Elixir-helpers for the file system",
+      licenses: ["MIT"],
+      links: %{github: "https://github.com/iboard/fs_utils"}
     ]
   end
 
